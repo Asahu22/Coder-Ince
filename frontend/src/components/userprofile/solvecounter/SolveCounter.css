@@ -1,0 +1,25 @@
+.solve-counter {
+    font-family: 'Cascadia Code';
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  .solve-counter-top {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .solve-counter-bottom {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

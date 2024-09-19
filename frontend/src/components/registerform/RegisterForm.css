@@ -1,0 +1,59 @@
+h1, h3 {
+  text-align: center;
+}
+
+.register-form {
+  font-family: 'Cascadia Code';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-form label {
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.register-form input[type="text"],
+.register-form textarea,
+.register-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: black;
+  resize: vertical;
+}
+
+.register-form p  {
+  font-family: 'Titillium Web';
+  text-align: center;
+  font-size: 16px;
+}
+
+.register-form p a {
+  text-decoration: none;
+}
+
+.register-form select {
+  background-color: white;
+}
+
+.register-button {
+  margin-top: 20px;
+  font-family: 'Cascadia Code';
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #333;
+}

@@ -1,0 +1,22 @@
+.verdict-box {
+    margin-left: 10px;
+    padding: 10px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .verdict-box h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+  }
+  
+  .verdict-box a .submission-details {
+      color: #000;
+    margin-left: 10px;
+  }
+  

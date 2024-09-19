@@ -1,0 +1,22 @@
+.submission-header {
+    margin-left: 50px;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+}
+
+.submission-details {
+    margin-left: 50px;
+    font-size: 2.5vh;
+    font-family: 'Titillium Web';
+}
+
+.ide {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 5px solid #000;
+    resize: none;
+    overflow:hidden;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,28 @@
+.compile-button {
+    font-family: 'Cascadia Code';
+    width: 50%;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    outline: none;
+  }
+  
+  .compile-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .compile-button:active {
+    transform: scale(0.95);
+  }
+  
+  .compile-button.pressed {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  

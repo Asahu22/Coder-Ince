@@ -1,0 +1,29 @@
+.problem-solved-table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    font-family: 'Titillium Web';
+  }
+  
+  .problem-solved-table th,
+  .problem-solved-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .problem-solved-table td a {
+    text-decoration: none;
+  }
+  
+  .problem-solved-table th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .problem-solved-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

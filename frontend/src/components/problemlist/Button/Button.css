@@ -1,0 +1,36 @@
+.button {
+  font-family: 'Cascadia Code';
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid black;
+  height: 4rem;
+  width: 15rem;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  justify-content: center;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+    box-shadow: none;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button.pressed {
+    transform: scale(0.98);
+    box-shadow: none;
+  }
+  

@@ -1,0 +1,47 @@
+.parent-container {
+    display:flex;
+}
+
+.editor-header-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.parent-container .child {
+    padding-left: 100px;
+}
+
+.child-container {
+    display:flex;
+    flex-basis: 50%; 
+    flex-direction: column;
+}
+
+.child-container .code-title {
+    font-size: 2.5rem;
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    align-content: center;
+
+}
+.editor-container {
+    resize: none;
+    overflow:hidden;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+}
+
+@media (max-width: 1029px) {
+
+    .child-container {
+      flex-basis: 100%; 
+      min-width: 0; 
+    }
+}
+
+.btn-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}

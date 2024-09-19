@@ -1,0 +1,35 @@
+.custom-table2 {
+  width: 80%;
+  margin: 0 auto 40px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.custom-table2 th {
+  background-color: #f2f2f2;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #ccc;
+}
+
+.custom-table2 td {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.custom-table2 tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.submission-id { width: 10%;  }
+.username { width: 15%; font-weight: bold; }
+.problem-name { width: 25%; }
+.verdict { width: 15%; }
+.language { width: 15%; }
+.submission-time { width: 20%; }
+
+.custom-table2 a{
+  text-decoration: none;
+}
+  

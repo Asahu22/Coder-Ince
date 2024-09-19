@@ -1,0 +1,22 @@
+.custom-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    height: 40px;
+    margin-left: 10px;
+  }
+  
+  .light-mode {
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dark-mode {
+    background-color: #333333;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+  }
+  

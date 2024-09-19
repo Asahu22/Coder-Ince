@@ -1,0 +1,46 @@
+.problem-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.problem-statement {
+    white-space: pre-line;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sampleio-table  {
+    font-family: 'Cascadia Code',sans-serif;
+    width: 90%;
+    margin-left: 20px;
+    border-collapse: collapse;
+  }
+  
+  .sampleio-table  th {
+    background-color: #ccc; 
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .sampleio-table  tr:not(:first-child) {
+    background-color: #f5f5f5; 
+  }
+  
+  .sampleio-table  td {
+    padding: 10px;
+    white-space: 'pre-line';
+    border: 1px solid #ddd;
+  }
+
+  
+  
+
+
+
+

@@ -1,0 +1,82 @@
+.nav-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Cascadia Code';
+}
+
+.title  {
+    letter-spacing: -1.5px;
+    font-size: 32px;
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-element ul  {
+    display: flex;
+}
+
+.nav-element ul li  {
+    list-style: none;
+}
+
+.nav-element ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    padding: 0.5rem;
+    color: white;
+    margin: 0 0.5rem;
+}
+
+.nav-element .menu {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    
+    .nav-element .menu {
+        display: flex;
+        margin-top: 0.3rem;
+    }
+
+    .nav-element .menu:hover {
+        cursor: pointer;
+    }
+
+    .nav-element {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .nav-element ul {
+        display: none;
+        flex-direction: column;
+        margin-bottom: 0.25rem;
+    }
+
+    .nav-element ul.open {
+        display: flex;
+    }
+
+    .nav.nav-element ul li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-element ul li a {
+        margin: 0.2rem 0.5rem;
+    }
+}

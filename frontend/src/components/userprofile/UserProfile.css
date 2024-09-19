@@ -1,0 +1,9 @@
+.user-header {
+    margin-left: 50px;
+    font-size: 2.5rem;
+    font-family: 'Titillium Web';
+}
+
+.counter-container {
+    display: flex;
+}
